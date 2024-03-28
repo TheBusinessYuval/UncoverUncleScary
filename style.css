@@ -1,5 +1,6 @@
 /* General Styling */
 body {
+
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -14,7 +15,10 @@ body {
   background-color: #e0e0e0;
   padding: 10px;
 }
+p{
+	font-size: 30px;
 
+}
 .topNaviagationLink {
   margin-right: 20px;
 }
@@ -37,22 +41,23 @@ body {
 
 .picture {
   flex: 1;
-  background-image: url("mainimage.png"); /* Replace with background image  */
+  background-image: url("mainimage.png"); 
   background-size: cover;
   background-position: center;
-  height: 1200px;
+  height: 2200px;
 }
 
 .contentBox {
   flex: 2;
   padding: 20px;
   background-color: white;
-  border-radius: 7px;
+  border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
   margin-bottom: 15px;
+  font-size: 40;
 }
 
 .contentText {
@@ -76,10 +81,3 @@ h4 {
   color: gray;
 }
 
-a[href^="http://"] {
-  color: #808080;
-}
-
-a[href^="http://"]:hover {
-  color: #000;
-}
