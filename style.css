@@ -2,11 +2,6 @@
 
 
 
-
-
-
-
-
 body {
 	margin: 0;
 	padding: 0;
@@ -179,7 +174,7 @@ color:#000000;
 
 
 blockquote {
-	font-size:25px;
+	font-size:15px;
 	text-align:justify;
 	width:400px;
 	color:#000000;
